@@ -64,4 +64,8 @@ public class Vehiculo {
                 "\nAño: " + anio +
                 "\nPrecio: $" + precio;
     }
+package modelo;
+
+public class Vehiculo {
+    
 }

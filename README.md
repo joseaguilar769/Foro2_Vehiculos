@@ -16,7 +16,7 @@
 | Katherinne Julissa Arévalo Sierra | AS242488 |
 | Marlon Josué Sosa Barillas | SB263028 |
 | Manuel de Jesús Mejia Rivera | MR260122 |
-| José Javier Aguilar Amaya | AA26121 |
+| José Javier Aguilar Amaya | AA261221 |
 
 ---
 

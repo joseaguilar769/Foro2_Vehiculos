@@ -42,8 +42,32 @@ public class Main {
                 break;
 
             case 2:
-                JOptionPane.showMessageDialog(null,
-                        "Opción: Registrar motocicleta");
+             String codigo = JOptionPane.showInputDialog("Ingrese el código:");
+             String marca = JOptionPane.showInputDialog("Ingrese la marca:");
+             String modelo = JOptionPane.showInputDialog("Ingrese el modelo:");
+
+            int anio = Integer.parseInt(
+            JOptionPane.showInputDialog("Ingrese el año:")
+            );
+
+           double precio = Double.parseDouble(
+           JOptionPane.showInputDialog("Ingrese el precio:")
+            );
+  
+            int cantidadPuertas = Integer.parseInt(
+            JOptionPane.showInputDialog("Ingrese la cantidad de puertas:")
+            );
+
+             String tipoCombustible = JOptionPane.showInputDialog(
+             "Ingrese el tipo de combustible:"
+            );
+
+            Automovil automovil = new Automovil( codigo, marca, modelo, anio, precio, cantidadPuertas, tipoCombustible );
+
+             vehiculos.add(automovil);
+
+              JOptionPane.showMessageDialog(null,
+             "Automóvil registrado correctamente.");
                 break;
 
             case 3:
@@ -77,5 +101,5 @@ public class Main {
         }
 
     } while (opcion != 7);
-  }
+}
 }
